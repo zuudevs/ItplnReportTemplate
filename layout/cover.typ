@@ -36,11 +36,11 @@
 				inset: (left: 26.5%)
 			)[
 				#align(left)[
-					#v(24pt) #h(1.5pt) #upper("nama") #h(13.5pt) : #kNama
-					#v(16.75pt) #h(1.5pt) #upper("nim") #h(26pt) : #kNim
-					#v(16.75pt) #h(1.5pt) #upper("kelas") #h(10.5pt) : #kKelas
-					#v(16.75pt) #h(1.5pt) #upper("dosen") #h(9pt) : #kDosen
-					#v(16.75pt) #h(1.5pt) #upper("no.pc") #h(14pt) : #kNoPc
+					#v(24pt) #h(1.5pt) #upper("nama") #h(13.5pt) : #titlecase(kNama)
+					#v(16.75pt) #h(1.5pt) #upper("nim") #h(26pt) : #titlecase(kNim)
+					#v(16.75pt) #h(1.5pt) #upper("kelas") #h(10.5pt) : #titlecase(kKelas)
+					#v(16.75pt) #h(1.5pt) #upper("dosen") #h(9pt) : #titlecase(kDosen)
+					#v(16.75pt) #h(1.5pt) #upper("no.pc") #h(14pt) : #titlecase(kNoPc)
 					#v(18.5pt) #h(1.5pt) #upper("asisten") #h(-0.5pt) : 
 					#rect(
 						width: 100%,
