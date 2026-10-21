@@ -13,7 +13,8 @@
 		height: 100%,
 		width: 100%,
 		inset: (
-			top: 1em
+			top: 1em,
+			left: 1em
 		)
 	)
 ]

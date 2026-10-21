@@ -11,20 +11,20 @@
 	kerning: false
 )
 
-#set par(spacing: 1.15pt)
+#set par(spacing: 1.15pt, justify: true)
 #set align(left)
 #set page(
 	paper: "a4",
 	margin: (
-		top: 1.9125cm,
-		left: 1.8125cm,
-		bottom: 1.9125cm,
-		right: 1.8125cm
+		top: 2.25cm, 
+		left: 2cm, 
+		bottom: 2.225cm, 
+		right: 2cm
 	),
 	background: kDiscussion,
-	header-ascent: 0.025cm,
+	header-ascent: 0.4cm,
 	header: kHeader,
-	footer-descent: 0.025cm,
+	footer-descent: 0.25cm,
 	footer: kFooter,
 )
 
@@ -32,6 +32,6 @@
 
 \
 
-// #kCoverPracticum
+#kCoverPracticum
 
-// \
+\
